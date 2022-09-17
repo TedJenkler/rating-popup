@@ -1,0 +1,130 @@
+body {
+    background: hsl(216, 12%, 8%);
+    height: 100vh;
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 25em;
+    height: 25em;
+    border-radius: 2em;
+    background: hsl(213, 19%, 18%);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+button {
+    height: 3em;
+    width: 3em;
+    border-radius: 2em;
+    border: none;
+    padding: 1em;
+    background:hsl(213, 5%, 18%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.button-star {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.h-1 {
+    grid-column: 2 / 5;
+    grid-row: 2;
+    position: relative;
+    right: 0.4em;
+}
+
+.p-1 {
+    grid-column: 2 / 5;
+    grid-row: 3;
+}
+
+#b-1 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#b-2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#b-3 {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#b-4 {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#b-5 {
+    grid-column: 5;
+    grid-row: 4;
+}
+
+#submit {
+    grid-column: 2 / 5;
+    grid-row: 5;
+    width: 100%;
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rate:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rate:focus {
+    background: hsl(216, 12%, 54%);
+    color: white;
+}
+
+#submit:hover {
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.box-small {
+    width: 25em;
+    height: 25em;
+    border-radius: 2em;
+    background: hsl(213, 19%, 18%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rate-div {
+    color: hsl(25, 97%, 53%);
+    background:hsl(213, 5%, 18%);
+    border-radius: 20px;
+    margin-top: 2em;
+    padding: 1px;
+    height: 3em;
+    text-align: center;
+}
+
+.grey {
+    color: grey;
+}
