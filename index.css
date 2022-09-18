@@ -13,6 +13,7 @@ body {
 .box {
     width: 25em;
     height: 25em;
+    padding: 1em;
     border-radius: 2em;
     background: hsl(213, 19%, 18%);
     color: white;
@@ -29,7 +30,7 @@ button {
     border-radius: 2em;
     border: none;
     padding: 1em;
-    background:hsl(213, 5%, 18%);
+    background: hsl(213, 19%, 23%);
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -93,7 +94,7 @@ button {
 }
 
 .rate:focus {
-    background: hsl(216, 12%, 54%);
+    background: hsl(217, 12%, 63%);
     color: white;
 }
 
@@ -113,14 +114,15 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1em;
 }
 
 .rate-div {
     color: hsl(25, 97%, 53%);
-    background:hsl(213, 5%, 18%);
+    background:hsl(213, 19%, 23%);
     border-radius: 20px;
     margin-top: 2em;
-    padding: 1px;
+    padding: 1px 10px 1px 10px;
     height: 3em;
     text-align: center;
 }
